@@ -1,0 +1,356 @@
+.orders {
+    background-color: #EDEDED;
+    padding: 20px;
+}
+
+.hesap-bilgi {
+    background-color: #EDEDED;
+    padding: 20px;
+}
+
+.account-adress {
+    background-color: #EDEDED;
+    padding: 20px;
+}
+
+.account-favories {
+    background-color: #EDEDED;
+    padding: 20px 20px 70px 20px;
+}
+
+
+
+/* ÜYELİK BİLGİLERİ BAŞLANGIÇ */
+.account-header-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+}
+
+.account-header-buttons a {
+    padding: 0 !important;
+    width: 300px;
+}
+
+.account-header-buttons button {
+    width: 300px;
+    background-color: #EDEDED;
+    height: 70px;
+    margin-left: 5px;
+}
+
+.account-header-buttons button.btnactive {
+    background-color: var(--secondarycolor);
+    color: #fff;
+}
+
+.account-infos {
+    padding: 50px 0;
+}
+
+.hesap-bilgi span {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+/* ÜYELİK BİLGİLERİ BİTİŞ */
+
+
+
+
+/* ORDERS START */
+
+.orders img {
+    border: 2px solid var(--gray);
+
+}
+
+.order-info {
+    padding: 0 30px;
+}
+
+.order-info-top {
+    height: 100%;
+}
+
+.order-top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.order-product {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.order-product span {
+    padding-right: 30px;
+}
+
+.order-top-left li {
+    padding: 6px 0;
+}
+
+.order-top-left li span::before {
+    content: ':';
+    padding: 0px 5px;
+}
+
+.order-top-left li:nth-child(3) span {
+    color: var(--primarycolor);
+}
+
+.order-top-left li:nth-child(5) span {
+    color: var(--primarycolor);
+}
+
+.order-info-top h2 {
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.order-top-left h2 {
+    font-size: 22px;
+}
+
+.order-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: end;
+}
+
+.order-price-input .shopping-add-btn {
+    margin-top: 20px;
+    border: none;
+    border-radius: 0px;
+}
+
+.order-info-main-top {
+    margin-bottom: 30px;
+}
+
+.invoice-adress {
+    border-right: 2px solid var(--gray);
+    margin-right: 30px;
+}
+
+.order-adress-list h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.order-adress-list span {
+    font-size: 14px;
+}
+
+.order-adress-list p {
+    font-size: 15px;
+}
+
+.order-footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-total-price ul {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-total-price ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.repeat-order {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.repeat-order a {
+    color: var(--secondarycolor);
+    text-decoration: underline;
+}
+
+
+/* ORDERS END*/
+
+/* ACCOUNT ADRESS START*/
+.first-column select {
+    width: 100%;
+}
+
+.institutional-adress label {
+    padding-left: 10px;
+}
+
+.account-inputs {
+    margin: 24px;
+}
+
+.account-inputs input {
+
+    width: 100%;
+}
+
+.two-column select {
+    width: 100%;
+}
+
+.two-column input {
+    width: 100%;
+}
+
+.third-column textarea {
+    height: 120px;
+    resize: none;
+    width: 100%;
+}
+
+.adress-save-btn button {
+    background-color: var(--primarycolor);
+    color: #fff;
+    height: 40px;
+    width: 200px;
+    margin: 24px;
+    font-weight: bold;
+}
+
+/* ACCOUNT ADRESS END*/
+/* ACCOUNT COMMENT START */
+.comment-text-edit {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.comment-text-edit textarea {
+    max-height: 200px;
+}
+.comment-area-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.acc-comment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.comment-area-btn button{
+    color: #fff;
+    height: 30px;
+    border-radius: 10px;
+    width: 100px;
+    transition: 0.3s;
+    background-color: var(--secondarycolor);
+}
+.comment-area-btn button:hover {
+    transition: 0.3s;
+    background-color: var(--primarycolor);
+}
+.comment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-header h2 {
+    width: 300px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.comment-main {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #EDEDED;
+}
+
+.comment-buttons {
+    padding: 20px;
+}
+.account-comments {
+    margin-bottom: 20px;
+}
+.account-comments img {
+    border: 2px solid var(--gray);
+}
+
+.comment-buttons button {
+    width: 150px;
+    height: 30px;
+
+}
+
+.comment-edit {
+    background-color: var(--primarycolor);
+    color: #fff;
+}
+
+.comment-delete {
+    margin-top: 10px;
+    background-color: #818181;
+    color: #fff;
+}
+
+.acc-com-btn {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.comment-main p {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+/* ACCOUNT COMMENT END */
+/* HELP CENTER START */
+
+.help-content {
+    display: flex;
+    background-color: #EDEDED;
+    padding: 30px;
+    padding-bottom: 40px;
+    height: 100%;
+}
+
+.icon-container i {
+    display: inline-block;
+    color: #fff;
+    font-size: 3.5rem;
+    background-color: var(--primarycolor);
+    border-radius: 15px;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.helper-links {
+    padding: 0px 30px 20px 30px;
+}
+
+.helper-links h2 {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1.6rem;
+}
+.helper-links p {
+   padding: 5px;
+}
+/* HELP CENTER END */

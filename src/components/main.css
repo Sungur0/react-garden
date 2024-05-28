@@ -1,0 +1,66 @@
+.main-grid img {
+ height: 400px;
+ object-fit: cover;
+ width: 100%;
+ position: relative;
+ 
+}
+.discount{
+    position: relative;
+}
+.textsale {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    z-index: 1;
+    background-color: var(--secondarycolor);
+    font-size: 24px;
+    width: 120px;
+    height: 120px;
+    color: #fff;
+ 
+}
+.sale strong {
+    font-size: 32px;
+    font-weight: 900;
+}
+.sale2 p{
+    left: 0%;
+    background-color: var(--primarycolor);
+}
+.maincarousel {
+    padding: 60px 0;
+}
+  .maincarousel .owl-carousel .owl-item img { 
+    height: 280px;
+    object-fit: cover;
+    border:  2px solid var(--gray);
+}
+
+.discountxt {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color: #fff;
+    font-weight: 500;
+    width: 170px;
+    font-size: 27px;
+    text-align: end;
+}
+.discountxt2 {
+    left: 5%;
+    width: 350px;
+    text-align: start;
+
+}

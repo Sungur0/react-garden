@@ -1,0 +1,62 @@
+.headlink {
+    margin-top: 20px;
+}
+
+.headlink ul {
+    display: flex;
+
+    color: #222;
+    font-size: 14px;
+}
+
+.headlink ul li:nth-child(1):after {
+    content: "/";
+    margin: 0 5px;
+}
+
+.headlink ul li a:nth-child(1) {
+    color: var(--gray);
+}
+
+.blogsearch {
+    margin-top: 30px;
+    background: url('../assets/blogbackground.webp');
+    height: 500px;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogsearch .searchinput input {
+    width: 700px;
+    color: var(--gray);
+    font-weight: 600;
+}
+
+.blogpage {
+    position: relative;
+}
+
+.blogdate {
+    background-color: var(--secondarycolor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    padding: 15px;
+}
+
+.blogdate span {
+    font-size: 30px;
+}
+
+.blogpag {
+    padding-bottom: 100px;
+}

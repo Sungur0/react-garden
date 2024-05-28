@@ -1,0 +1,270 @@
+.shopping-cart-bg {
+    background-color: #FAFAFA;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.item-cart-products {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+
+.summary-product-total-price ul li{
+    padding: 5px 0px;
+}
+.cart-image img{
+    margin-left: 15px;
+    height: 100%;
+    border: 1px solid var(--gray);    
+}
+
+.cart-order {
+    background-color: #fff;
+    padding: 30px;
+}
+
+
+.shopping-cart-order {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+.cart-order-header h2{
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.shopping-cart-order li {
+    padding: 10px 0px;
+}
+.shopping-cart-order li span::before {
+    content: ':';
+    padding: 0px 5px;
+}
+
+.shopping-cart-order li:nth-child(3) span {
+    color: var(--primarycolor);
+}
+
+
+.cart-order-price {
+    padding:10px 0 35px 0px;
+    text-align: right;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cart-order-price .produce {
+    justify-content: end
+}
+.cart-order-price span  {
+    
+    width: max-content;
+    display: inline-block;
+    font-size:19px;
+    transition: 1.3s ease;
+
+}
+.cart-order-price span:hover  {
+    transition: 0.3s ease;
+    color: red;
+}
+.cart-order-price p i {
+    margin-left: 7px;
+}
+.card-order-button h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.order-summary {
+    padding: 30px;
+}
+.summary-header h2 {
+    font-size: 23px;
+    color: var(--secondarycolor);
+}
+.summary-product-total-price ul {
+    width: 250px;
+}
+.summary-product-total-price ul li {
+    display: flex;
+    justify-content: space-between;
+}
+.order-summary .product-total-price li {
+        padding: 10px;
+}
+.coupon-input {
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--gray);
+    display: flex;
+    margin-bottom: 10px;
+}
+.coupon-input input {
+
+    width: 150px;
+    padding-left: 10px;
+    border: 1px solid var(--gray);
+}
+.coupon-input .shopping-add-btn {
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 0;
+}
+.shopping-cart-bg h2 {
+    padding-bottom: 20px;
+}
+.total-price {
+    font-weight: bold;
+    font-size: 18px;
+}
+.continue-btn {
+    color: #fff;
+    background-color: var(--primarycolor);
+    height: 40px;
+    margin-top: 25px;
+    width: 250px;
+    text-align: center;
+}
+.cart-order-price span i{
+    padding-left: 5px;
+    color: #D61D1C;
+}
+
+/* DELİVERY CSS START */
+
+.delivery-bg {
+    background-color: #FAFAFA;
+    padding: 20px 30px;
+    padding-bottom: 100px;
+}
+.delivery-adress {
+    margin-top: 40px;
+    background-color:#fff ;
+    padding: 50px;
+    border: 2px solid var(--gray);
+}
+.adress-edit {
+    padding-top: 5px;
+    font-size: 14px;
+    width: 100%;
+    text-align: end;
+    display: inline-block;
+}
+.add-new-adress {
+    margin-top: 20px;
+    background-color: #EBEBEB;
+    padding: 15px;
+    
+}
+/* DELİVERY CSS END */
+
+/* CARD INFORMATION START */
+.card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid var(--gray);
+    padding: 25px 40px;
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+}
+.card-info input{
+    border: 2px solid var(--gray);
+    border-radius: 7px;
+    height: 45px;
+    width: 100%;
+    padding: 10px;
+    
+}
+.card-number{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-owner-name {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-input-holder {
+    justify-content: space-between;
+    display: flex;
+}
+.card-cvc {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-expration-date {
+    display: flex;
+    flex-direction: column;
+}
+.card-cvc span {
+    font-size: 14px;
+    text-align: end;
+}
+.card-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-information .container {
+    background-color: #FAFAFA;
+    padding: 20px 30px;
+    padding-bottom: 100px;
+}
+.info-form-input {
+    display: flex;
+    font-size: 11px;
+}
+
+.info-form-input  label{
+    margin-left: 10px;    
+}
+.secure-input {
+    display: flex;
+    font-size: 11px;
+}
+.secure-input label{
+    margin-left: 10px;    
+}
+/* CARD INFORMATION END */
+
+/* SHOPPİNG MAİN CSS  START*/
+.button-container  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.button-container .container::before {
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 97%;
+    background-color: #A5A5A5;
+}
+.button-container a {
+    padding: 20px;
+    z-index: 20;
+    font-size: 30px;
+    background-color: #fff;
+    color: var(--gray);
+}
+.btnactive {
+    color: var(--primarycolor);
+}
+
+.component-container {
+    padding: 20px 0px 40px 0px;
+}
+
+/* SHOPPİNG MAİN CSS  END*/
